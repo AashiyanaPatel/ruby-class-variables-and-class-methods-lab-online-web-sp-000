@@ -19,7 +19,7 @@ def initialize(song_name, artist, genre)
 end
 
 def self.genre
-  @@genre.uniq!
+  @@genres.uniq!
 end
 
 def self.artists
