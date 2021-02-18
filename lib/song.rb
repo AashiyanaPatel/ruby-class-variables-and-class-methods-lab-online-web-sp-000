@@ -19,11 +19,11 @@ def initialize(song_name, artist, genre)
 end
 
 def self.genre
-  @@genre.uniq
+  @@genre.uniq!
 end
 
 def self.artists
-  @@artists.uniq
+  @@artists.uniq!
 end
 
 def self.genre_count
