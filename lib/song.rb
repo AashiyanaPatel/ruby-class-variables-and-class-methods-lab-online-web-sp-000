@@ -18,7 +18,7 @@ def initialize(song_name, artist, genre)
    @@count
 end
 
-def self.genre
+def self.genres
   @@genres.uniq!
 end
 
